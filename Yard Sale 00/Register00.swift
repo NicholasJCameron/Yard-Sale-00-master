@@ -41,7 +41,7 @@ class Register00: UIViewController,UITextFieldDelegate {
         // Dispose of any resources that can be recreated.
     }
     func slideLabel(labelOne: UILabel){
-        labelOne.text = "Business Name is nick";
+        labelOne.text = "Business is mine Name";
         labelOne.textColor = UIColor.black
 
         UIView.animate(withDuration: 1.0, delay: 0.0, usingSpringWithDamping: 0.0, initialSpringVelocity: 0.0, options: .curveEaseIn, animations: {
